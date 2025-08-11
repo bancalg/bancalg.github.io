@@ -71,6 +71,9 @@
   }
 }
 
+.square-image{
+  border-radius: 0px;
+}
 .my-image{
   border-radius: 20px;
 }
