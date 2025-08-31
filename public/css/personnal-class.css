@@ -71,16 +71,34 @@
   }
 }
 
+.my_box{
+  padding: 20px 20px 10px 20px;
+  border-left-width: 10px;
+  background-color:#689A4E;
+  /*background-color:#85b75f;*/
+  margin-left: 15%;
+  margin-right: 15%;
+  border-radius: 10px;
+  color:#f4f4f4;
+  cursor: pointer;
+}
+.my_box:hover{
+  background-color: #4f803e;
+  /*background-color: #75a153;*/
+}
+
+
+
 .square-image{
   border-radius: 0px;
 }
 .my-image{
   border-radius: 20px;
 }
-.my-image:hover{
+/*.my-image:hover{
   cursor: pointer;
   filter: brightness(87%);
-}
+}*/
 .my-zoom{
   filter: brightness(97%);
 }
@@ -88,6 +106,36 @@
   cursor: zoom-in;
 }
 
+
+
+/* Blue1 */
+.theme-base-blue1 .sidebar {
+  background-color: #689A4E;/*#85b75f;*/
+}
+.theme-base-blue1 .content a,
+.theme-base-blue1 .related-posts li a:hover {
+  color: #ac4142;
+}
+
+/* Blue2 */
+.theme-base-blue2 .sidebar {
+  background-color: #B17433;/*ba9a33f4;*/
+}
+.theme-base-blue2 .content a,
+.theme-base-blue2 .related-posts li a:hover {
+  color: #ac4142;
+}
+
+/* Blue3 */
+.theme-base-blue3 .sidebar {
+  /*background-color: #22448c;*/
+  /*background-color: #1c3874;*/
+  background-color: #3f648f;
+}
+.theme-base-blue3 .content a,
+.theme-base-blue3 .related-posts li a:hover {
+  color: #ac4142;
+}
 
 /* from: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details */
 
@@ -218,8 +266,9 @@ details[open] > summary {
 .my-button-OrcId:hover{background-color:#86B616;}
 
 .my-button-home{padding: 11px 25px;}
-/* .my-button-home:hover{background-color: #017663;} */
-.my-button-home:hover{background-color: #d28445;}
+/* .my-button-home:hover{background-color: #017663;}
+.my-button-home:hover{background-color: #d28445;}*/
+.my-button-home:hover{background-color: #689A4E;}
 
 .my-button-research{padding: 13px 25px;}
 .my-button-research:hover{background-color: #6393a8;}

@@ -80,6 +80,26 @@
   font-size: 3.25rem;
 }
 
+.sidebar-about h2 {
+  margin-top: 0;
+  line-height: 1.0;
+  font-size: 1.5rem;
+}
+
+.sidebar-about-white h1 {
+  margin-top: 0;
+  line-height: 1.0;
+  font-size: 3.25rem;
+  color:rgba(255,255,255,1);
+}
+
+.sidebar-about-white h2 {
+  margin-top: 0;
+  line-height: 1.0;
+  font-size: 1.5rem;
+  color:rgba(255,255,255,1);
+}
+
 /* Sidebar nav */
 .sidebar-nav {
   margin-bottom: 1rem;
@@ -324,3 +344,4 @@ a.sidebar-nav2-active-item:focus {
 .theme-base-Red-Pierre .related-posts li a:hover {
   color: #ac4142;
 }
+
