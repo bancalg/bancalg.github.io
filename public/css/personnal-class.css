@@ -74,7 +74,7 @@
 .my_box{
   padding: 20px 20px 10px 20px;
   border-left-width: 10px;
-  background-color:#689A4E;
+  background-color:#689A4Ecc;
   /*background-color:#85b75f;*/
   margin-left: 15%;
   margin-right: 15%;
@@ -83,7 +83,7 @@
   cursor: pointer;
 }
 .my_box:hover{
-  background-color: #4f803e;
+  background-color: #4f803ecc;
   /*background-color: #75a153;*/
 }
 
@@ -110,7 +110,7 @@
 
 /* Blue1 */
 .theme-base-blue1 .sidebar {
-  background-color: #689A4E;/*#85b75f;*/
+  background-color: #689A4Ecc;/*#85b75f;*/
 }
 .theme-base-blue1 .content a,
 .theme-base-blue1 .related-posts li a:hover {
@@ -119,7 +119,7 @@
 
 /* Blue2 */
 .theme-base-blue2 .sidebar {
-  background-color: #B17433;/*ba9a33f4;*/
+  background-color: #B17433cc;/*ba9a33f4;*/
 }
 .theme-base-blue2 .content a,
 .theme-base-blue2 .related-posts li a:hover {
@@ -130,11 +130,11 @@
 .theme-base-blue3 .sidebar {
   /*background-color: #22448c;*/
   /*background-color: #1c3874;*/
-  background-color: #3f648f;
+  background-color: #3f648fcc;
 }
 .theme-base-blue3 .content a,
 .theme-base-blue3 .related-posts li a:hover {
-  color: #ac4142;
+  color: #ac4142cc;
 }
 
 /* from: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/details */
